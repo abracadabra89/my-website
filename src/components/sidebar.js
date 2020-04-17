@@ -19,13 +19,13 @@ export default class Sidebar extends Component {
             <div className="text-center">
               <div
                 className="author-img"
-                style={{ backgroundImage: "url(images/about.jpg)" }}
+                style={{ backgroundImage: "url(images/img_bg.jpg)" }}
               />
               <h1 id="colorlib-logo">
                 <a href="index.html">Anya Schechter</a>
               </h1>
               <span className="email">
-                <i className="icon-mail"></i> anyaschechter@gmail.com
+                <i className="icon-email"></i> anyaschechter@gmail.com
               </span>
             </div>
             <nav id="colorlib-main-menu" role="navigation" className="navbar">
@@ -41,8 +41,8 @@ export default class Sidebar extends Component {
                       About
                     </a>
                   </li>
-                  {/* <li><a href="#" data-nav-section="projects">Projects</a></li>
-                  <li><a href="#" data-nav-section="blog">Blog</a></li> */}
+                  {/*<li><a href="#" data-nav-section="projects">Projects</a></li>
+                  <li><a href="#" data-nav-section="blog">Blog</a></li>*/}
                   <li>
                     <a href="#timeline" data-nav-section="timeline">
                       Timeline
@@ -55,11 +55,11 @@ export default class Sidebar extends Component {
               <ul>
                 <li>
                   <a
-                    href="https://www.linkedin.com/in/anyaschechter/"
+                    href="https://www.linkedin.com/in/dhruv-b-545b52a9/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <i className="icon-linkedin2" />
+                    <i class="fab fa-linkedin"></i>
                   </a>
                 </li>
                 <li>
@@ -68,7 +68,7 @@ export default class Sidebar extends Component {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <i className="icon-github"></i>
+                    <i class="fab fa-github"></i>
                   </a>
                 </li>
                 <li>
@@ -77,12 +77,11 @@ export default class Sidebar extends Component {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <i className="icon-blogger2"></i>
+                    <i class="fab fa-medium"></i>
                   </a>
                 </li>
               </ul>
             </nav>
-            <div className="colorlib-footer"></div>
           </aside>
         </div>
       </div>
