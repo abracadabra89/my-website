@@ -48,6 +48,11 @@ export default class Sidebar extends Component {
                       Timeline
                     </a>
                   </li>
+                  <li>
+                    <a href="#project" data-nav-section="about">
+                      Projects
+                    </a>
+                  </li>
                 </ul>
               </div>
             </nav>
@@ -55,7 +60,7 @@ export default class Sidebar extends Component {
               <ul>
                 <li>
                   <a
-                    href="https://www.linkedin.com/in/dhruv-b-545b52a9/"
+                    href="https://www.linkedin.com/in/anya-schechter-328069107/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -73,7 +78,7 @@ export default class Sidebar extends Component {
                 </li>
                 <li>
                   <a
-                    href="https://medium.com/@anyalitvinova"
+                    href="https://medium.com/@anyaschechter"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

@@ -47,7 +47,7 @@ export default class Introduction extends Component {
                       <div className="slider-text-inner">
                         <div className="desc">
                           <h1>
-                            I love building things.
+                            I love building things
                             <br />
                           </h1>
                           <p>
@@ -57,7 +57,7 @@ export default class Introduction extends Component {
                               target="_blank"
                               rel="noopener noreferrer"
                             >
-                              See my projects{" "}
+                              Recent projects{" "}
                               {/* <i className="glyphicon glyphicon-eye-open" /> */}
                             </a>
                           </p>

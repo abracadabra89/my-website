@@ -13,6 +13,7 @@ export default class Projects extends Component {
               >
                 <span className="heading-meta">My Work</span>
                 <h2 className="colorlib-heading animate-box">
+                  <p id="project"></p>
                   Recent Projects
                 </h2>
               </div>
@@ -22,6 +23,7 @@ export default class Projects extends Component {
                 className="col-md-4 animate-box"
                 data-animate-effect="fadeInLeft"
               >
+                {" "}
                 <div
                   className="project"
                   style={{ backgroundImage: "url(images/appetite.png)" }}
@@ -34,8 +36,13 @@ export default class Projects extends Component {
                       <span>Appetite</span>
                       <p className="icon">
                         <span>
-                          <a href="#https://github.com/abracadabra89/Final-Project-Frontend">
-                            <i class="far fa-eye"></i>
+                          <a href="https://github.com/abracadabra89/Final-Project-Frontend">
+                            <i class="fab fa-github"></i>
+                          </a>
+                        </span>
+                        <span>
+                          <a href="https://www.youtube.com/watch?v=Zlhp2KI7QGM">
+                            <i class="fab fa-youtube"></i>
                           </a>
                         </span>
                       </p>
@@ -47,7 +54,6 @@ export default class Projects extends Component {
                 className="col-md-4 animate-box"
                 data-animate-effect="fadeInRight"
               >
-                <p id="project"></p>
                 <div
                   className="project"
                   style={{ backgroundImage: "url(images/img-3.png)" }}
@@ -60,8 +66,8 @@ export default class Projects extends Component {
                       <span>Collage</span>
                       <p className="icon">
                         <span>
-                          <a href="#https://github.com/abracadabra89/collage">
-                            <i class="far fa-eye"></i>
+                          <a href="https://github.com/abracadabra89/collage">
+                            <i class="fab fa-github"></i>
                           </a>
                         </span>
                       </p>
