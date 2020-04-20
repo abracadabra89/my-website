@@ -47,7 +47,7 @@ export default class About extends Component {
             </div>
             <div className="row row-pt-md">
               <div className="col-md-4 text-center animate-box">
-                <div className="services color-1">
+                <div className="services color-2">
                   <span className="icon">
                     <i className="icon-bulb" />
                   </span>
@@ -61,7 +61,7 @@ export default class About extends Component {
                 </div>
               </div>
               <div className="col-md-4 text-center animate-box">
-                <div className="services color-2">
+                <div className="services color-3">
                   <span className="icon">
                     <i className="icon-bulb" />
                   </span>
@@ -75,7 +75,7 @@ export default class About extends Component {
                 </div>
               </div>
               <div className="col-md-4 text-center animate-box">
-                <div className="services color-3">
+                <div className="services color-5">
                   <span className="icon">
                     <i className="icon-bulb" />
                   </span>

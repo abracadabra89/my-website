@@ -479,9 +479,8 @@ figure {
 
 				.desc {
 				display: flex;
-  				justify-content: center;
-  				align-items: center;
-  				height: 200px;
+				  max-height: 200px;
+				  min-height: 200px;
 				}
 
 				@media screen and (max-width: $screen-sm) {
@@ -907,8 +906,10 @@ body {
 	box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
 	border-bottom: 2px solid $brand-primary;
 
+
 	.icon2 {
 		display: block;
+		width: 100%;
 		margin-bottom: 20px;
 
 		i {
@@ -1026,7 +1027,6 @@ body {
 			font-size: 16px;
 			font-weight: 700;
 			text-transform: uppercase;
-			text-align: center;
 		}
 	}
 
@@ -1324,6 +1324,11 @@ body {
 	}
 
 	.desc {
+		display: block;
+		position: fixed;
+		min-height: 100%;
+		max-height: 100%;
+
 		h3,h1 {
 			font-size: 16px;
 			margin-bottom: 25px;
@@ -1332,7 +1337,7 @@ body {
 			text-transform: uppercase;
 			letter-spacing: 1px;
 			font-family: $font-primary;
-			text-align: center;
+
 
 			a {
 				color: $brand-black;
