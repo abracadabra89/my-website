@@ -12,7 +12,7 @@ export default class Blog extends Component {
                 data-animate-effect="fadeInLeft"
               >
                 <span className="heading-meta">Read</span>
-                <h2 className="colorlib-heading">Recent Blog</h2>
+                <h2 className="colorlib-heading">My Recent Blog Posts</h2>
               </div>
             </div>
             <div className="row">
@@ -21,29 +21,30 @@ export default class Blog extends Component {
                 data-animate-effect="fadeInLeft"
               >
                 <div className="blog-entry">
-                  <a href="blog.html" className="blog-img">
-                    <img
-                      src="images/blog-1.jpg"
-                      className="img-responsive"
-                      alt="HTML5 Bootstrap Template by colorlib.com"
-                    />
-                  </a>
+                  <a href="#blog" className="blog-img"></a>
+                  <img
+                    src="images/vscode.png"
+                    className="img-responsive"
+                    alt="HTML5 Bootstrap Template by colorlib.com"
+                  />
+
                   <div className="desc">
                     <span>
-                      <small>April 14, 2018 </small> |{" "}
-                      <small> Web Design </small> |{" "}
+                      <small>November 25, 2019 </small> |{" "}
                       <small>
                         {" "}
-                        <i className="icon-bubble3" /> 4
+                        <i className="icon-bubble3" /> 3
                       </small>
                     </span>
                     <h3>
-                      <a href="blog.html">Renovating National Gallery</a>
+                      <a
+                        href="https://medium.com/@anyaschechter/react-extensions-for-vs-707322195ee"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        React Extensions for VS Code
+                      </a>
                     </h3>
-                    <p>
-                      Separated they live in Bookmarksgrove right at the coast
-                      of the Semantics, a large language ocean.
-                    </p>
                   </div>
                 </div>
               </div>
@@ -54,27 +55,28 @@ export default class Blog extends Component {
                 <div className="blog-entry">
                   <a href="blog.html" className="blog-img">
                     <img
-                      src="images/blog-2.jpg"
+                      src="images/blog2.jpg"
                       className="img-responsive"
                       alt="HTML5 Bootstrap Template by colorlib.com"
                     />
                   </a>
                   <div className="desc">
                     <span>
-                      <small>April 14, 2018 </small> |{" "}
-                      <small> Web Design </small> |{" "}
+                      <small>November 1, 2019 </small> |{" "}
                       <small>
                         {" "}
-                        <i className="icon-bubble3" /> 4
+                        <i className="icon-bubble3" /> 2
                       </small>
                     </span>
                     <h3>
-                      <a href="blog.html">Wordpress for a Beginner</a>
+                      <a
+                        href="https://medium.com/@anyaschechter/a-remedy-for-novice-coders-who-want-to-get-unstuck-a394f5668ab7"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        A Remedy for Novice Coders Who Want To Get UnStuck
+                      </a>
                     </h3>
-                    <p>
-                      Separated they live in Bookmarksgrove right at the coast
-                      of the Semantics, a large language ocean.
-                    </p>
                   </div>
                 </div>
               </div>
@@ -85,39 +87,34 @@ export default class Blog extends Component {
                 <div className="blog-entry">
                   <a href="blog.html" className="blog-img">
                     <img
-                      src="images/blog-3.jpg"
+                      src="images/blog4.png"
                       className="img-responsive"
                       alt="HTML5 Bootstrap Template by colorlib.com"
                     />
                   </a>
                   <div className="desc">
                     <span>
-                      <small>April 14, 2018 </small> |{" "}
-                      <small> Inspiration </small> |{" "}
+                      <small>October 23, 2019 </small> |{" "}
                       <small>
                         {" "}
-                        <i className="icon-bubble3" /> 4
+                        <i className="icon-bubble3" /> 5
                       </small>
                     </span>
                     <h3>
-                      <a href="blog.html">Make website from scratch</a>
+                      <a
+                        href="https://medium.com/@anyaschechter/better-error-better-life-65db25fff414"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Better Error/Better Life
+                      </a>
                     </h3>
-                    <p>
-                      Separated they live in Bookmarksgrove right at the coast
-                      of the Semantics, a large language ocean.
-                    </p>
                   </div>
                 </div>
               </div>
             </div>
             <div className="row">
-              <div className="col-md-12 animate-box">
-                <p>
-                  <a href="#" className="btn btn-primary btn-lg btn-load-more">
-                    Load more <i className="icon-reload" />
-                  </a>
-                </p>
-              </div>
+              <div className="col-md-12 animate-box"></div>
             </div>
           </div>
         </section>

@@ -27,11 +27,18 @@ export default class Timeline extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>
-                          Fridman Gallery <span>March 2014 - March 2015</span>
-                        </h2>
+                        <h3>
+                          <a
+                            href="https://www.fridmangallery.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            Fridman Gallery{" "}
+                          </a>
+                          <span>March 2014 - March 2015</span>
+                        </h3>
                         <p>
-                          <h2>Gallery Assistant </h2>
+                          <h4>Gallery Assistant </h4>
                           <ul>
                             <li>
                               Handled incoming works of arts and prepared them
@@ -60,11 +67,17 @@ export default class Timeline extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>
-                          Shapiro Auctions{" "}
+                        <h3>
+                          <a
+                            href="https://www.shapiroauctions.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            Shapiro Auctions{" "}
+                          </a>
                           <span>December 2015 - March 2017</span>
-                        </h2>
-                        <h2>Project Manager</h2>
+                        </h3>
+                        <h4>Project Manager</h4>
                         <ul>
                           <li>
                             Created monthly online auctions for small-scaled
@@ -88,11 +101,17 @@ export default class Timeline extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>
-                          SelfMadeMe Inc.{" "}
+                        <h3>
+                          <a
+                            href="https://www.selfmade.co/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            SelfMadeMe Inc.{" "}
+                          </a>
                           <span>March 2017 - December 2018</span>
-                        </h2>
-                        <h2>Marketing Specialist and Operations Manager</h2>
+                        </h3>
+                        <h4>Marketing Specialist and Operations Manager</h4>
                         <ul>
                           <li>
                             Worked closely with SelfMade e-commerce customers to
@@ -114,10 +133,10 @@ export default class Timeline extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>
+                        <h3>
                           Casa Gambe <span>March 2017 - December 2018</span>
-                        </h2>
-                        <h2>Founder</h2>
+                        </h3>
+                        <h4>Founder</h4>
                         <ul>
                           <li>
                             Founded an e-commerce hosiery brand to appeal to
@@ -148,12 +167,18 @@ export default class Timeline extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>
-                          Flatiron School{" "}
+                        <h3>
+                          <a
+                            href="https://flatironschool.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            Flatiron School{" "}
+                          </a>
                           <span>August 2019 - February 2020</span>
-                        </h2>
+                        </h3>
                         <p>
-                          <h2>Fullstack Web Development </h2>
+                          <h4>Fullstack Web Development </h4>
                           An immersive, highly intensive web development program
                           that accepts around 6% of applicants and has a 93%
                           placement rate. Completed 15-week full-stack immersive

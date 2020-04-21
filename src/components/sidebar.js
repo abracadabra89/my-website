@@ -51,6 +51,11 @@ export default class Sidebar extends Component {
                       Projects
                     </a>
                   </li>
+                  <li>
+                    <a href="#blog" data-nav-section="blog">
+                     Blog
+                    </a>
+                  </li>
                 </ul>
               </div>
             </nav>
@@ -62,7 +67,7 @@ export default class Sidebar extends Component {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <i class="fab fa-linkedin"></i>
+                    <i className="fab fa-linkedin"></i>
                   </a>
                 </li>
                 <li>
@@ -71,7 +76,7 @@ export default class Sidebar extends Component {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <i class="fab fa-github"></i>
+                    <i className="fab fa-github"></i>
                   </a>
                 </li>
                 <li>
@@ -80,7 +85,7 @@ export default class Sidebar extends Component {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <i class="fab fa-medium"></i>
+                    <i className="fab fa-medium"></i>
                   </a>
                 </li>
               </ul>

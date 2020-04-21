@@ -37,12 +37,12 @@ export default class Projects extends Component {
                       <p className="icon">
                         <span>
                           <a href="https://github.com/abracadabra89/Final-Project-Frontend">
-                            <i class="fab fa-github"></i>
+                            <i className="fab fa-github"></i>
                           </a>
                         </span>
                         <span>
                           <a href="https://www.youtube.com/watch?v=Zlhp2KI7QGM">
-                            <i class="fab fa-youtube"></i>
+                            <i className="fab fa-youtube"></i>
                           </a>
                         </span>
                       </p>
@@ -67,7 +67,7 @@ export default class Projects extends Component {
                       <p className="icon">
                         <span>
                           <a href="https://github.com/abracadabra89/collage">
-                            <i class="fab fa-github"></i>
+                            <i className="fab fa-github"></i>
                           </a>
                         </span>
                       </p>
