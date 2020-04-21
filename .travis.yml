@@ -6,10 +6,9 @@ cache:
   - node_modules
 script:
   - npm run build
-deploy:
-  provider: pages
-  skip_cleanup: true
-  github_token: $github_token
-  local_dir: build
+
+    deploy:
+  provider: heroku
+  app: my-website
   on:
-    branch: master
+    repo: abracadabra89/my-website

@@ -413,7 +413,8 @@ figure figcaption {
 #colorlib-hero .flexslider .slider-text>.slider-text-inner h2,
 #colorlib-hero .flexslider .slider-text>.slider-text-inner h3 {
   margin: 0;
-  padding: 0 color: black;
+  padding: 0;
+  color: black;
   font-family: "Playfair Display", Georgia, serif;
 }
 
@@ -852,7 +853,7 @@ body.offcanvas .colorlib-nav-toggle {
   color: #2c98f0;
 }
 
-.services h3, h2, h4 {
+.services h2, h3, h4 {
   font-family: "Quicksand", Arial, sans-serif;
   font-size: 16px;
   font-weight: 500;
