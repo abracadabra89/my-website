@@ -9,6 +9,6 @@ script:
 
     deploy:
   provider: heroku
-  app: my-website
+  app: fierce-dusk-87005
   on:
     repo: abracadabra89/my-website
