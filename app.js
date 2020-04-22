@@ -1,23 +1,15 @@
-require("newrelic");
-const cool = require("cool-ascii-faces");
-const express = require("express");
-const path = require("path");
-const PORT = process.env.PORT || 5000;
+var express = require("express");
+var serveIndex = require("serve-index");
+var path = require("path");
+var serveStatic = require("serve-static");
+var app = express();
+var port = process.env.PORT || 3000;
+/**for files */
+app.use(serveStatic(path.join(__dirname, "public")));
+/**for directory */
+app.use("/", express.static("public"), serveIndex("public", { icons: true }));
 
-express()
-  .use(express.static(path.join(__dirname, "public")))
-  .set("views", path.join(__dirname, "views"))
-  .set("view engine", "ejs")
-  .get("/", (req, res) => res.render("pages/index"))
-  .get("/cool", (req, res) => res.send(cool()))
-  .get("/times", (req, res) => res.send(showTimes()))
-  .listen(PORT, () => console.log(`Listening on ${PORT}`));
-
-  showTimes = () => {
-    let result = "";
-    const times = process.env.TIMES || 5;
-    for (i = 0; i < times; i++) {
-      result += i + " ";
-    }
-    return result;
-  };
+// Listen
+app.listen(port, function () {
+  console.log("listening on port:", +port);
+});
