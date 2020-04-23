@@ -225,6 +225,7 @@
     var $, win;
 
     $ = this.jQuery || window.jQuery;
+    console.log(this.jQuery)
 
     win = $(window);
 
@@ -519,6 +520,7 @@
         elm = this[i];
         fn($(elm));
       }
+      console.log('this: ', this)
       return this;
     };
   }.call(this));
