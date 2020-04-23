@@ -47,7 +47,13 @@ export default class Introduction extends Component {
               <li style={{ backgroundImage: "url(images/intro2.jpg)" }}>
                 <div className="overlay"> </div>
                 <div className="container-fluid">
-                  <div className="row">
+                  <div
+                    className="row"
+                    style={{
+                      alignItems: "stretch",
+                      justifyContent: "center",
+                    }}
+                  >
                     <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
                       <div className="slider-text-inner">
                         <div className="desc">

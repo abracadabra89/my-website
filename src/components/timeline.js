@@ -129,7 +129,7 @@ export default class Timeline extends Component {
                     data-animate-effect="fadeInLeft"
                   >
                     <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-5">
+                      <div className="timeline-icon color-6">
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
@@ -148,14 +148,6 @@ export default class Timeline extends Component {
                           </li>
                         </ul>
                       </div>
-                    </div>
-                  </article>
-                  <article
-                    className="timeline-entry begin animate-box"
-                    data-animate-effect="fadeInBottom"
-                  >
-                    <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-none"></div>
                     </div>
                   </article>
                   <article

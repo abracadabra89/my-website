@@ -53,7 +53,7 @@ export default class Blog extends Component {
                 data-animate-effect="fadeInRight"
               >
                 <div className="blog-entry">
-                  <a href="blog.html" className="blog-img">
+                  <a className="blog-img">
                     <img
                       src="images/blog2.jpg"
                       className="img-responsive"
@@ -85,7 +85,7 @@ export default class Blog extends Component {
                 data-animate-effect="fadeInLeft"
               >
                 <div className="blog-entry">
-                  <a href="blog.html" className="blog-img">
+                  <a className="blog-img">
                     <img
                       src="images/blog4.png"
                       className="img-responsive"

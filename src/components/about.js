@@ -19,11 +19,13 @@ export default class About extends Component {
                       <p>
                         I am a recent graduate of Flatiron’s Web Development
                         Immersive Program. Prior to this, I worked in the arts
-                        and startups. I decided to find a career with more
-                        creative problem solving and impact, and coding is now
-                        my passion. I cannot wait to see what I can create as I
-                        start to utilize what I have learned already, I learn
-                        more, and contribute to a team.
+                        and startups. I wanted a career with more rigor, problem
+                        solving, and impact. Coding is now my passion, and I
+                        cannot wait to start building with a team of engineers.
+                        Currently, I do web development projects to pay the
+                        bills, but I have more offer and more learn. For this
+                        reason, I’m looking for companies with inspiring
+                        missions, welcoming teams, and hard problems to solve.
                       </p>
                     </div>
                   </div>
@@ -40,9 +42,7 @@ export default class About extends Component {
                 data-animate-effect="fadeInLeft"
               >
                 <span className="heading-meta">What I do?</span>
-                <h2 className="colorlib-heading">
-                  Here are some of my expertise
-                </h2>
+                <h2 className="colorlib-heading">Areas of expertise</h2>
               </div>
             </div>
             <div className="row row-pt-md">
@@ -82,8 +82,8 @@ export default class About extends Component {
                   <div className="desc">
                     <p>
                       Comfortable working with RESTful API's and use of version
-                      control (git). Strong knowledge of HTML, CSS, JavaScript, React, Redux,
-                      Rails.
+                      control (git). Strong knowledge of HTML, CSS, JavaScript,
+                      React, Redux, Rails.
                     </p>
                   </div>
                 </div>

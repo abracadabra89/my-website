@@ -3,30 +3,84 @@
 
   var isMobile = {
     Android: function () {
-      return navigator.userAgent.match(/Android/i);
+      return navigator.userAgent.match(/Android/i) ? true : false;
+    },
+    AndroidOld: function () {
+      return navigator.userAgent.match(/Android 2.3.3/i) ? true : false;
+    },
+    AndroidTablet: function () {
+      return navigator.userAgent.match(/Android/i) &&
+        !navigator.userAgent.match(/Mobile/i)
+        ? true
+        : false;
+    },
+    Kindle: function () {
+      return navigator.userAgent.match(/Kindle/i) ? true : false;
+    },
+    KindleFire: function () {
+      return navigator.userAgent.match(/KFOT/i) ? true : false;
+    },
+    Silk: function () {
+      return navigator.userAgent.match(/Silk/i) ? true : false;
     },
     BlackBerry: function () {
-      return navigator.userAgent.match(/BlackBerry/i);
+      return navigator.userAgent.match(/BlackBerry/i) ? true : false;
     },
     iOS: function () {
-      return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+      return navigator.userAgent.match(/iPhone|iPad|iPod/i) ? true : false;
     },
-    Opera: function () {
-      return navigator.userAgent.match(/Opera Mini/i);
+    iPhone: function () {
+      return navigator.userAgent.match(/iPhone|iPod/i) ? true : false;
+    },
+    iPad: function () {
+      return navigator.userAgent.match(/iPad/i) ? true : false;
     },
     Windows: function () {
-      return navigator.userAgent.match(/IEMobile/i);
+      return navigator.userAgent.match(/IEMobile/i) ? true : false;
+    },
+    FirefoxOS: function () {
+      return navigator.userAgent.match(/Mozilla/i) &&
+        navigator.userAgent.match(/Mobile/i)
+        ? true
+        : false;
+    },
+    Retina: function () {
+      return window.retina || window.devicePixelRatio > 1 ? true : false;
     },
     any: function () {
       return (
         isMobile.Android() ||
+        isMobile.Kindle() ||
+        isMobile.KindleFire() ||
+        isMobile.Silk() ||
         isMobile.BlackBerry() ||
         isMobile.iOS() ||
-        isMobile.Opera() ||
-        isMobile.Windows()
+        isMobile.Windows() ||
+        isMobile.FirefoxOS()
+      );
+    },
+    all: function () {
+      return navigator.userAgent;
+    },
+    tablet: function () {
+      return (
+        isMobile.AndroidTablet() ||
+        isMobile.iPad() ||
+        isMobile.Kindle() ||
+        isMobile.KindleFire() ||
+        isMobile.Silk()
       );
     },
   };
+
+  // Mobile global var
+  var mobile_browser = isMobile.any() ? 1 : 0,
+    iphone_browser = isMobile.iPhone() ? 1 : 0,
+    ipad_browser = isMobile.iPad() ? 1 : 0,
+    android_browser = isMobile.Android() ? 1 : 0,
+    android233_browser = isMobile.AndroidOld() ? 1 : 0,
+    kindle_browser = isMobile.Kindle() ? 1 : 0,
+    retina_browser = isMobile.Retina() ? 1 : 0;
 
   var fullHeight = function () {
     if (!isMobile.any()) {
