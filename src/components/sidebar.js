@@ -25,7 +25,7 @@ export default class Sidebar extends Component {
                 <a href="index.html">Anya Schechter</a>
               </h1>
               <span className="email">
-                <i className="icon-email"></i> anyaschechter@gmail.com
+                <i className="far fa-envelope"></i> anyaschechter@gmail.com
               </span>
             </div>
             <nav id="colorlib-main-menu" role="navigation" className="navbar">
