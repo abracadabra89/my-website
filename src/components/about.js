@@ -23,7 +23,7 @@ export default class About extends Component {
                         solving, and impact. Coding is now my passion, and I
                         cannot wait to start building with a team of engineers.
                         Currently, I do web development projects to pay the
-                        bills, but I have more offer and more learn. For this
+                        bills, but I have more to offer and more to learn. For this
                         reason, I’m looking for companies with inspiring
                         missions, welcoming teams, and hard problems to solve.
                       </p>
